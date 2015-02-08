@@ -4,10 +4,10 @@
     app.controller('ShelfController', function(){
 	this.books = books;
     });
-
+    
     var books = [
 	{
-	    isbn: '978-4-10-117131-9',
+	    isbn: 9784101171319,
 	    type: '文庫',
 	    title: '旅のラゴス',
 	    author: '筒井康隆',
@@ -19,7 +19,7 @@
 	    impressions: '旅に出たくなるような気持ちにさせられる。一見ただのファンタジーとも捉えられるんだけど、妙に現実感を帯びている。'
 	},
 	{
-	    isbn: '978-4-06-257795-3',
+	    isbn: 9784062577953,
 	    type: '新書',
 	    title: 'シャノンの情報理論入門',
 	    author: '高岡詠子',
