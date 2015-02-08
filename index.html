@@ -13,11 +13,10 @@
 	
 	<div class="container">
 	  <h1><em>Shelf Management Application</em></h1>
-	  
-	  <input type="text" ng-model="search" size="50" placeholder="絞込みを行いたい場合は何か入力してください...">
-	  <p><b>検索結果: </b> <em>{{shelf.books.length}}</em> <b>件</b></p>
-	  
-	  <table class="table table-hover">
+	  <button class="btn btn-small btn-primary" type="button">新規登録</button>
+	  <p><b>登録件数: </b> <em>{{shelf.books.length}}</em> <b>件</b></p>
+			
+	  <table class="table table-striped">
 		<tr>
 		  <th>type</th>
 		  <th>title</th>
@@ -38,9 +37,9 @@
 		  <td><em>{{book.year}}</em></td>
 		  <td>{{book.status}}</td>
 		  <td>
-			<span class="label label-info" ng-repeat="tag in book.tags">{{ tag }} </span>
+			<span class="label label-info" ng-repeat="tag in book.tags">{{tag}}</span>
 		  </td>
-		  <td>{{book.impressions | limitTo:20}}</td>
+		  <td>{{book.impressions | limitTo:25}}</td>
 		</tr>
 	  </table>
 	  
