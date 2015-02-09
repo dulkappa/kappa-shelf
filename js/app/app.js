@@ -4,6 +4,15 @@
     app.controller('ShelfController', function(){
 	this.books = books;
     });
+
+    app.controller('BookController', function(){
+	this.book = {};
+
+	this.addBook = function(shelf){
+	    shelf.books.push(this.book);
+	    this.book = {};
+	};
+    });
     
     var books = [
 	{
