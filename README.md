@@ -14,5 +14,10 @@ dulkappaが自分の本を管理するためのアプリケーション.
 - Angular.jsを使用して作成.
 - booklogのAPIとか叩けたら素敵なんだけどな...
 
+## 直近のタスク
+- validation
+- save data
+
 ## 進捗
+- 2015.02.11 `ng-model`と`ng-submit`を使った基本的な登録処理を実装.
 - 2015.02.10 Angular.jsを使って開発再開.
