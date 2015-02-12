@@ -15,9 +15,10 @@ dulkappaが自分の本を管理するためのアプリケーション.
 - booklogのAPIとか叩けたら素敵なんだけどな...
 
 ## 直近のタスク
-- validation
+- separate from html and app.js
 - save data
 
 ## 進捗
+- 2015.02.12 validationを追加.
 - 2015.02.11 `ng-model`と`ng-submit`を使った基本的な登録処理を実装.
 - 2015.02.10 Angular.jsを使って開発再開.
