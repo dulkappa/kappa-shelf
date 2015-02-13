@@ -15,8 +15,9 @@ dulkappaが自分の本を管理するためのアプリケーション.
 - booklogのAPIとか叩けたら素敵なんだけどな...
 
 ## 直近のタスク
+- add tag form validation
 - separate from html and app.js
-- save data
+- save data or sync db
 
 ## 進捗
 - 2015.02.12 validationを追加.
