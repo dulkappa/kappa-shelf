@@ -5,12 +5,19 @@
 	this.books = books;
     });
 
-    app.controller('BookController', function(){
-	this.book = {};
-
-	this.addBook = function(shelf){
-	    shelf.books.push(this.book);
-	    this.book = {};
+    app.directive('registration', function(){
+	return {
+	    restrict: 'E',
+	    templateUrl: 'custom/registration.html',
+	    controller: function(){
+		this.book = {};
+		
+		this.addBook = function(shelf){
+		    shelf.books.push(this.book);
+		    this.book = {};
+		};
+	    },
+	    controllerAs: 'bookCtrl'
 	};
     });
     

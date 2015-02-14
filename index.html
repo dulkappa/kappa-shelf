@@ -28,53 +28,9 @@
 	</div>
 
 	<div class="container">
-	  <form name="registrationForm" ng-controller="BookController as bookCtrl" ng-submit="registrationForm.$valid && bookCtrl.addBook(shelf)" novalidate>
-		<h3>Book Registration</h3>
-		
-		<table>
-		  <tr>
-			<th>type</th>
-			<td>
-			  <select required ng-model="bookCtrl.book.type">
-				<option value="文庫">文庫</option>
-				<option value="新書">新書</option>
-				<option value="教科書">教科書</option>
-				<option value="マンガ">マンガ</option>
-			  </select>
-			</td>
-		  </tr>
-		  <tr>
-			<th>title</th>
-			<td><input type="text" required ng-model="bookCtrl.book.title" /></td>
-		  </tr>
-		  <tr>
-			<th>author</th>
-			<td><input type="text" required ng-model="bookCtrl.book.author" /></td>
-		  </tr>
-		  <tr>
-			<th>publish</th>
-			<td><input type="text" required ng-model="bookCtrl.book.publish" /></td>			
-		  </tr>
-		  <tr>
-			<th>price</th>
-			<td><input type="number" required min="0" ng-model="bookCtrl.book.price" /></td>
-		  </tr>
-		  <tr>
-			<th>year</th>
-			<td><input type="number" required ng-model="bookCtrl.book.year" /></td>
-		  </tr>
-		  <tr>
-			<th>tags</th>
-			<td><input type="text" required ng-model="bookCtrl.book.tags" /></td>
-		  </tr>
-		  <tr>
-			<th>impressions</th>
-			<td><textarea rows="2" required ng-model="bookCtrl.book.impressions"></textarea></td>
-		  </tr>
-		</table>
-		<input type="submit" required class="btn btn-primary pull-right" value="Submit" />
-	  </form>
-	  
+
+	  <registration></registration>
+
 	  <hr />
 
 	  <h3>Result</h3>
