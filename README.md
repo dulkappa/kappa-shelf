@@ -15,6 +15,8 @@ dulkappaが自分の本を管理するためのアプリケーション.
 ## 実装概要.
 - Angular.jsを使用して作成.
 - booklogのAPIとか叩けたら素敵なんだけどな...
+- gulpを叩いて実行できるようにする
+- とりあえずデータを保存できるように... (json形式で?)
 
 ## 直近のタスク
 - add tag form validation
